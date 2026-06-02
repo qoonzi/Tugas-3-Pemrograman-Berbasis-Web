@@ -59,19 +59,19 @@ import {
 from 'vue'
 
 import { getData }
-from '../services/api'
+from '../api'
 
 import StockTable
-from '../components/StockTable.vue'
+from '../StockTable.vue'
 
 import StockFilter
-from '../components/StockFilter.vue'
+from '../StockFilter.vue'
 
 import StockForm
-from '../components/StockForm.vue'
+from '../StockForm.vue'
 
 import ConfirmModal
-from '../components/ConfirmModal.vue'
+from '../ConfirmModal.vue'
 
 const stocks = ref([])
 
