@@ -102,16 +102,16 @@ import {
 } from 'vue'
 
 import { getData }
-from '../services/api'
+from '../api'
 
 import TrackingForm
-from '../components/TrackingForm.vue'
+from '../TrackingForm.vue'
 
 import TrackingSearch
-from '../components/TrackingSearch.vue'
+from '../TrackingSearch.vue'
 
 import TrackingTimeline
-from '../components/TrackingTimeline.vue'
+from '../TrackingTimeline.vue'
 
 const trackingList = ref([])
 
