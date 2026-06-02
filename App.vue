@@ -43,8 +43,8 @@
 <script setup>
 import { ref } from 'vue'
 
-import StockPage from './views/StockPage.vue'
-import TrackingPage from './views/TrackingPage.vue'
+import StockPage from './StockPage.vue'
+import TrackingPage from './TrackingPage.vue'
 
 const page = ref('stock')
 </script>
